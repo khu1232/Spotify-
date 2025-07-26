@@ -160,9 +160,10 @@
       flex-wrap: wrap;
     }
   
-    .arrange span{
-      padding:14px;
-      margin: 4px;
+     .arrange p{
+      padding:17px;
+      margin: 24px;
+      font-size: 23px;
     }
   
     .arrange a{
