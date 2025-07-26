@@ -2,6 +2,9 @@
       margin: 0;padding: 0;
       color: whitesmoke;
     }
+.invert{
+   filter:invert(1);
+}
     header{
       display: flex;
       gap: 8rem;
