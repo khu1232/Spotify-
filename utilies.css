@@ -1,4 +1,4 @@
-    *{
+6    *{
       margin: 0;padding: 0;
       color: whitesmoke;
     }
@@ -107,7 +107,7 @@
       color: gray;
   }
     .library{
-      height: 24vh;
+      height: 26vh;
       overflow: scroll;
       margin-top: 3vh;
       width: 21vw;
@@ -129,7 +129,7 @@
       border-radius: 15px;
       background-color: grey;
       margin: 5px;
-      height: 15vh;
+      height: 18vh;
       margin-top: 3vh;
       
     }
