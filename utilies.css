@@ -14,7 +14,7 @@
     .lily {
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
+      gap: 18px;
     }
     .home img{
       width: 2vw;
