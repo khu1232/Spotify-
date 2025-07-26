@@ -1,0 +1,251 @@
+    *{
+      margin: 0;padding: 0;
+      color: whitesmoke;
+    }
+.invert{
+  filter : invert(1);
+}
+    header{
+      display: flex;
+      gap: 8rem;
+      background-color: black;
+      margin: 0;padding: 0;
+    }
+    .lily {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .home img{
+      width: 2vw;
+      padding-right: 3vw;
+    }
+
+    img{
+      width: 5vw;
+      height: 5vh;
+      object-fit: contain;
+      overflow: hidden;
+      padding-top: 1vh;
+    }
+    .int{
+      display: flex;
+      width: 32vw;
+      gap: 2rem;
+    }
+    .search{
+      z-index: 3;
+    }
+    input{
+      margin-left: -5vw;
+      background-color: gray;
+      border-color: gray;
+      border-radius: 23px;
+      font-size: medium;
+      z-index: 2;
+      width: 86vw;
+      padding-left: 3vw;
+    }
+    .right{
+      display: flex;
+      gap: 2rem;
+    }
+    button{
+      background-color: black;
+      color: grey;
+      border: none;
+
+    }
+    a img{
+      margin-top: 1.3vh;
+      width: 2vw;
+      height: 2.4vh;
+    }
+    .right a{
+      color: grey;
+      text-decoration: none;
+      font-size: 16px;
+      
+    }
+    .login-btn{
+      background-color: white;
+      color: black;
+      border-radius: 17px;
+      padding: 15px;
+      margin: 1px;
+
+    }
+    h1{
+      padding: 4px;
+      margin: 14px;
+    }
+    .container{
+      display: flex;
+      margin: 0;
+      padding: 0;
+      height: 90vh;
+      z-index: 3;
+    }
+    .left-side{
+      width: 23vw;
+      background-color: rgb(26, 25, 25);
+    }
+    h4{
+      margin-top: 1vh;
+      font-size: larger;
+    }
+    .ls1-1{
+      display: flex;
+      flex-direction: row;
+      gap:6rem;
+      padding: 17px 0;
+    }
+  .ls1-1 img{
+      width: 2vw;
+      height: 4vh;  
+      color: gray;
+  }
+    .library{
+      height: 24vh;
+      overflow: scroll;
+      margin-top: 3vh;
+      width: 21vw;
+    }
+    .ls-1{
+      margin: 14px;
+      
+    }
+    .ls-1 button{
+      border-radius: 10px;
+      font-size: large;
+      margin-top: 3vh;
+      padding: 4px;
+      
+    }
+    .playlist{
+      padding: 4px;
+      border: 2px solid grey;
+      border-radius: 15px;
+      background-color: grey;
+      margin: 5px;
+      height: 15vh;
+      margin-top: 3vh;
+      
+    }
+    .list{
+      display: flex;
+      max-width: 400px;
+      gap: 13px;
+      flex-wrap: wrap;
+      margin-top: 16vh;
+    }
+    #lib-btn{
+      border:2px solid grey;
+      border-radius: 15px;
+      padding: 5px;
+    }
+    .list a{
+      text-decoration: none;
+    }
+    .right-side{
+      width: 77%;
+      background-color: black;
+    }
+    .arrange{
+      display: flex;
+      gap: 12px;
+      height: 67vh;
+      overflow: scroll;
+      margin-left: 35px;
+      flex-wrap: wrap;
+    }
+  
+    .arrange span{
+      padding:14px;
+      margin: 4px;
+    }
+  
+    .arrange a{
+      text-decoration: none;
+    }
+    .box img , .box1 img{
+      border-radius: 4px;
+      transform: rotate(25deg) translate(18%,-2%);
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+      position: absolute;
+      width: 45%;
+      height: 70%;
+      object-fit: cover;
+      margin-top: 7vh;
+      margin-left: 13vw;
+    }
+    .box{
+      width: 23vw;
+      height: 26vh;
+      background-color: pink;
+      border-radius: 10px;
+      z-index: 3;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .box1{
+      width: 23vw;
+      height: 26vh;
+      background-color: crimson;
+      border-radius: 10px;
+      z-index: 3;
+      overflow: hidden;
+      position: relative;
+    }
+  
+   
+
+    .main-footer{
+      background-color: black;
+      height: 14vh;
+      width: 100%; margin: 0;padding: 0;position: absolute;
+      bottom: 0;  
+      color: white; 
+    }
+    .footer button{
+      background-color: white;
+      padding: 5px;
+      border-radius: 10px;
+      font-size: larger;
+      color: black;
+    }
+    .footer{
+      display: flex;
+      overflow: hidden;
+      gap: 36rem;
+      width: 100%;
+      margin: 12px;
+      bottom: 0;
+      margin: 0;padding: 0;
+      height: 10vh;
+      flex-wrap: wrap;
+      position: absolute;
+      background:linear-gradient(120deg,rgb(181, 14, 181),rgb(104, 104, 213));
+      margin-bottom: 2vh;
+    }
+  
+    .f-2 {
+      margin-top: 2vh;
+    }
+    .bottom-1{
+      display: flex;
+      padding-top: 209px;
+      margin-left: 10vw;
+    }
+    
+    ul{
+      display: flex;      
+      flex-direction: column;
+      gap: 12px;
+      margin: 33px;
+
+    }
+    h3{
+      margin: 33px;
+    }
